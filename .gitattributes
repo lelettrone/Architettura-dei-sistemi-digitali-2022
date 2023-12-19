@@ -1,1 +1,1 @@
-*.vhdl linguistic-language=VHDL
+*.vhdl linguist-detectable=false
