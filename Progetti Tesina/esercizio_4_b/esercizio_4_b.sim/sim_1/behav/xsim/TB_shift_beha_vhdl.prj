@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../esercizio_4_b.srcs/sources_1/new/shift_register_beha.vhd" \
+"../../../../esercizio_4_b.srcs/sim_1/new/TB_shift_beha.vhd" \
+
+# Do not sort compile order
+nosort

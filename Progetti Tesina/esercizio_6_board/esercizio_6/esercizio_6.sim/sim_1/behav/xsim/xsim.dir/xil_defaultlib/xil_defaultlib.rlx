@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sim_1/new/TB_testing.vhd,1640954309,vhdl,,,,tb_testing,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/imports/Desktop/contatore.vhd,1640955774,vhdl,,,,contatore,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/Compare.vhd,1640951164,vhdl,,,,compare,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/FullAdder.vhd,1640863801,vhdl,,,,fulladder,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/Mem_output.vhd,1640955235,vhdl,,,,mem_output,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/ROM.vhd,1640955084,vhdl,,,,rom,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/ROM_output.vhd,1640956028,vhdl,,,,rom_output,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/RippleCarryAdder.vhd,1638617373,vhdl,,,,ripplecarryadder,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/SistemaTesting.vhd,1640955980,vhdl,,,,sistematesting,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/Unita_Controllo.vhd,1640955866,vhdl,,,,unita_controllo,,,,,,,,
+C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.srcs/sources_1/new/Unita_Operativa.vhd,1640955812,vhdl,,,,unita_operativa,,,,,,,,

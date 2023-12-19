@@ -1,0 +1,88 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Dec 31 11:17:02 2021
+| Host         : LAPTOP-VINCENZO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Interfaccia_Seriale_control_sets_placed.rpt
+| Design       : Interfaccia_Seriale
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    10 |
+|    Minimum number of control sets                        |    10 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    32 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    10 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     0 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              34 |           10 |
+| Yes          | No                    | No                     |              24 |            9 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              12 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+--------------------------+-------------------+------------------+----------------+--------------+
+|     Clock Signal    |       Enable Signal      |  Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------+--------------------------+-------------------+------------------+----------------+--------------+
+|  clock_in_IBUF_BUFG |                          |                   |                1 |              2 |         2.00 |
+|  clock_in_IBUF_BUFG | A/uart/tfIncr            | A/uart/tClkRST    |                1 |              4 |         4.00 |
+|  clock_in_IBUF_BUFG | B/uart/eqOp0_in          | B/uart/ctRst      |                1 |              4 |         4.00 |
+|  clock_in_IBUF_BUFG | B/uart/dataIncr          | B/uart/dataRST    |                1 |              4 |         4.00 |
+|  clock_in_IBUF_BUFG | A/uart/tfSReg[8]_i_1_n_0 |                   |                2 |              8 |         4.00 |
+|  clock_in_IBUF_BUFG | B/uart/rdReg0            |                   |                3 |              8 |         2.67 |
+|  clock_in_IBUF_BUFG | B/uart/dataIncr          |                   |                4 |              9 |         2.25 |
+|  clock_in_IBUF_BUFG |                          | B/uart/clkDiv0    |                3 |             10 |         3.33 |
+|  clock_in_IBUF_BUFG |                          | B/uart/SS[0]      |                3 |             11 |         3.67 |
+|  clock_in_IBUF_BUFG |                          | A/uart/tDelayCtr0 |                4 |             13 |         3.25 |
++---------------------+--------------------------+-------------------+------------------+----------------+--------------+
+
+

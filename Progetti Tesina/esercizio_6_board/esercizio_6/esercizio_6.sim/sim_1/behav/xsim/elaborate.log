@@ -1,0 +1,25 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto fdd97ed7632c4dc0875f5954fbff29dd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_testing_behav xil_defaultlib.TB_testing -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ROM [\ROM(n=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_output [\ROM_output(n=8)\]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mem_output [\Mem_output(n=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.Compare [compare_default]
+Compiling architecture behavioral of entity xil_defaultlib.contatore [\contatore(n=8)\]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture structural of entity xil_defaultlib.SistemaTesting [sistematesting_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_testing
+Built simulation snapshot TB_testing_behav

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Dec  4 12:38:52 2021
+# Process ID: 3988
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim/xsim.dir/TB_RCA_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Vincenzo -notrace
+couldn't read file "C:/Users/Vincenzo": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sat Dec  4 12:38:52 2021...

@@ -1,0 +1,1 @@
+-wto "fdd97ed7632c4dc0875f5954fbff29dd" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_RCA_behav" "xil_defaultlib.TB_RCA" -log "elaborate.log" 

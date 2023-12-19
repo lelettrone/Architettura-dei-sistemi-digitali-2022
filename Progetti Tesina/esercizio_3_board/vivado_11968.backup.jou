@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 27 11:33:25 2021
+# Process ID: 11968
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_3_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18784 C:\Users\Vincenzo Pascarella\Desktop\Universit\Magistrale\Architettura_S_D\Vivado\progetti_tesina\esercizio_3_board\esercizio_3.xpr
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_3_board/vivado.log
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_3_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_3_board/esercizio_3.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1
+startgroup
+set_property CONFIG_VOLTAGE 3.3 [get_designs impl_1]
+set_property CFGBVS VCCO [get_designs impl_1]
+endgroup
+set_property target_constrs_file {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Nexys-A7-100T-Master.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1

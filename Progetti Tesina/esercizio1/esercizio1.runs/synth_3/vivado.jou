@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov 10 09:51:19 2021
+# Process ID: 5988
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio1/esercizio1.runs/synth_3
+# Command line: vivado.exe -log rete_16_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rete_16_4.tcl
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio1/esercizio1.runs/synth_3/rete_16_4.vds
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio1/esercizio1.runs/synth_3\vivado.jou
+#-----------------------------------------------------------
+source rete_16_4.tcl -notrace

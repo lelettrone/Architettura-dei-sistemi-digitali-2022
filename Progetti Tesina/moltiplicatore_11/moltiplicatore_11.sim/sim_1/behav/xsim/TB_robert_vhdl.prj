@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/Adder.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/FlipFlop.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/imports/Desktop/FullAdder.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/Mux_21.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/Registro.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/imports/Desktop/RippleCarryAdder.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/Robertson.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/ShiftRegister.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/UnitaDiControllo.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/new/UnitaOperativa.vhd" \
+"../../../../moltiplicatore_11.srcs/sources_1/imports/sources_1/imports/Desktop/contatore.vhd" \
+"../../../../moltiplicatore_11.srcs/sim_1/new/TB_robert.vhd" \
+
+# Do not sort compile order
+nosort

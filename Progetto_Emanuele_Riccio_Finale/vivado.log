@@ -1,0 +1,757 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb  8 12:20:24 2022
+# Process ID: 7088
+# Current directory: C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8168 C:\Users\eleun\Downloads\Progetto_Emanuele_Riccio\Progetto_Emanuele_Riccio.xpr
+# Log file: C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/vivado.log
+# Journal file: C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/SystemAB.vhd w ]
+add_files C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/SystemAB.vhd
+update_compile_order -fileset sources_1
+set_property top SystemAB [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NodoA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/SystemAB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SystemAB'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sim_1/new/beh.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rc_adder_tst'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 999.949 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NodoB'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NodoA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NodoA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+close [ open C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA_.vhd w ]
+add_files C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA_.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA_.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA_.vhd
+file delete -force C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA_.vhd
+close [ open C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd w ]
+add_files C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'NodoA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 999.949 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/CompB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CompB'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 999.949 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/CompB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CompB'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 999.949 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 999.949 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rc_adder_tst' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rc_adder_tst_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RomAA'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+"xelab -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3f48d3aa7f6f422fb4cb7840bc99f982 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rc_adder_tst_behav xil_defaultlib.rc_adder_tst -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.RomA [roma_default]
+Compiling architecture behavioral of entity xil_defaultlib.RomAA [romaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Contatore [contatore_default]
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture nodoa_arc of entity xil_defaultlib.NodoA [\NodoA(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.MemB [memb_default]
+Compiling architecture behavioral of entity xil_defaultlib.CompB [compb_default]
+Compiling architecture bhv of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture nodob_arc of entity xil_defaultlib.NodoB [\NodoB(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SystemAB [systemab_default]
+Compiling architecture beh of entity xil_defaultlib.rc_adder_tst
+Built simulation snapshot rc_adder_tst_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleun/Downloads/Progetto_Emanuele_Riccio/Progetto_Emanuele_Riccio.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rc_adder_tst_behav -key {Behavioral:sim_1:Functional:rc_adder_tst} -tclbatch {rc_adder_tst.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rc_adder_tst.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rc_adder_tst_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 999.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  8 14:14:38 2022...

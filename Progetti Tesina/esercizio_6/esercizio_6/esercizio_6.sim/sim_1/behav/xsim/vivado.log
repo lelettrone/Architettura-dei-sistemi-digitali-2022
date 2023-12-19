@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec  6 18:17:30 2021
+# Process ID: 17908
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13192 C:\Users\Vincenzo Pascarella\Desktop\Universit\Magistrale\Architettura_S_D\Vivado\progetti_tesina\esercizio_6\esercizio_6.sim\sim_1\behav\xsim\TB_RCA_behav.wdb
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_6/esercizio_6.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\Vincenzo Pascarella\Desktop\Universit\Magistrale\Architettura_S_D\Vivado\progetti_tesina\esercizio_6\esercizio_6.sim\sim_1\behav\xsim\TB_RCA_behav.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  6 18:17:51 2021...

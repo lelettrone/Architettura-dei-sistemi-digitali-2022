@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec 14 13:21:06 2021
+# Process ID: 13660
+# Current directory: C:/Users/raimo/Desktop/Raimondo/moltiplicatore_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6636 C:\Users\raimo\Desktop\Raimondo\moltiplicatore_11\moltiplicatore_11.xpr
+# Log file: C:/Users/raimo/Desktop/Raimondo/moltiplicatore_11/vivado.log
+# Journal file: C:/Users/raimo/Desktop/Raimondo/moltiplicatore_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/raimo/Desktop/Raimondo/moltiplicatore_11/moltiplicatore_11.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+set_property -name {xsim.simulate.runtime} -value {455ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+set_property -name {xsim.simulate.runtime} -value {600ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim
+launch_simulation
+source TB_robert.tcl
+close_sim

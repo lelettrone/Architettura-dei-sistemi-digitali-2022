@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jan  8 13:07:41 2022
+# Process ID: 12980
+# Current directory: C:/Users/eleun/Desktop/ese_da_scrivere/esercizio_5_board_1_2/esercizio_5_board.runs/impl_1
+# Command line: vivado.exe -log cronometroOnDisplay.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cronometroOnDisplay.tcl -notrace
+# Log file: C:/Users/eleun/Desktop/ese_da_scrivere/esercizio_5_board_1_2/esercizio_5_board.runs/impl_1/cronometroOnDisplay.vdi
+# Journal file: C:/Users/eleun/Desktop/ese_da_scrivere/esercizio_5_board_1_2/esercizio_5_board.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source cronometroOnDisplay.tcl -notrace

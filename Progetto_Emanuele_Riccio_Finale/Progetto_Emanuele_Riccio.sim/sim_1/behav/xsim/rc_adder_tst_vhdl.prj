@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/CompB.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/Contatore.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/Demux1_2.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/FullAdder.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/MemB.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoA.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/NodoB.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/RippleCarryAdder.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/RomA.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/RomAA.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/SystemAB.vhd" \
+"../../../../Progetto_Emanuele_Riccio.srcs/sim_1/new/beh.vhd" \
+
+# Do not sort compile order
+nosort

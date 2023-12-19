@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Dec 31 12:09:37 2021
+# Process ID: 3672
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14304 C:\Users\Vincenzo Pascarella\Desktop\Universit\Magistrale\Architettura_S_D\Vivado\esercizio_2\esercizio_2.xpr
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/vivado.log
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_2' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.gen/sources_1', nor could it be found using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_2/esercizio_2.gen/sources_1'.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd'; using path 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_bcd_display.vhd}}]
+set_property is_enabled false [get_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd}}]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_bcd_display.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_bcd_display.vhd}}
+file delete -force {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_bcd_display.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd} {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd} {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd} {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd}}
+remove_files  {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd}}
+WARNING: [Vivado 12-818] No files matched 'C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/ROMonDisplay/ROMonDisplay.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd'
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/flip_flop.vhd} w ]
+add_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/flip_flop.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_timing.vhd} w ]
+add_files {{C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.srcs/sources_1/new/encoder_timing.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Dec 31 12:24:55 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Fri Dec 31 12:25:36 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Fri Dec 31 12:26:43 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/esercizio_2/esercizio_2.runs/impl_1/runme.log
+set_property IS_ENABLED true [get_report_config -of_object [get_runs impl_1] impl_1_opt_report_timing_summary_0]
+set_property OPTIONS.report_unconstrained {true} [get_report_config -of_objects [get_runs impl_1] {impl_1_opt_report_timing_summary_0}]
+generate_reports [get_report_config -of_object [get_runs impl_1] impl_1_opt_report_timing_summary_0] 
+generate_reports: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 1001.059 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 31 12:30:45 2021...

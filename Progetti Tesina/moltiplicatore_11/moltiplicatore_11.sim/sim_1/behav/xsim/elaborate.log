@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d020591c38824aebb9a22c1a08310e6c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_robert_behav xil_defaultlib.TB_robert -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture dataflow of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture structural of entity xil_defaultlib.Adder [adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_21 [mux_21_default]
+Compiling architecture behavioral of entity xil_defaultlib.ShiftRegister [shiftregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.Registro [registro_default]
+Compiling architecture behavioral of entity xil_defaultlib.contatore [contatore_default]
+Compiling architecture behavioral of entity xil_defaultlib.FlipFlop [flipflop_default]
+Compiling architecture structural of entity xil_defaultlib.UnitaOperativa [unitaoperativa_default]
+Compiling architecture behavioral of entity xil_defaultlib.UnitaDiControllo [unitadicontrollo_default]
+Compiling architecture structural of entity xil_defaultlib.Robertson [robertson_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_robert
+Built simulation snapshot TB_robert_behav

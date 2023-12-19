@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec 14 17:54:05 2021
+# Process ID: 2072
+# Current directory: C:/Users/raimo/Desktop/Progetti_Tesina/esercizio1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1800 C:\Users\raimo\Desktop\Progetti_Tesina\esercizio1\esercizio1.xpr
+# Log file: C:/Users/raimo/Desktop/Progetti_Tesina/esercizio1/vivado.log
+# Journal file: C:/Users/raimo/Desktop/Progetti_Tesina/esercizio1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/raimo/Desktop/Progetti_Tesina/esercizio1/esercizio1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_mux_16_1.tcl
+set_property -name {xsim.simulate.runtime} -value {100ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source TB_mux_16_1.tcl
+set_property is_enabled true [get_files  C:/Users/raimo/Desktop/Progetti_Tesina/esercizio1/esercizio1.srcs/sources_1/new/demux_1_4.vhd]
+update_compile_order -fileset sources_1
+close_sim

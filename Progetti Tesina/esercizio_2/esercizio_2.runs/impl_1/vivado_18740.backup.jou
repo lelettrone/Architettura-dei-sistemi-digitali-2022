@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 27 11:24:55 2021
+# Process ID: 18740
+# Current directory: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_2/esercizio_2.runs/impl_1
+# Command line: vivado.exe -log encoder_bcd_display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source encoder_bcd_display.tcl -notrace
+# Log file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_2/esercizio_2.runs/impl_1/encoder_bcd_display.vdi
+# Journal file: C:/Users/Vincenzo Pascarella/Desktop/Universit/Magistrale/Architettura_S_D/Vivado/progetti_tesina/esercizio_2/esercizio_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source encoder_bcd_display.tcl -notrace
