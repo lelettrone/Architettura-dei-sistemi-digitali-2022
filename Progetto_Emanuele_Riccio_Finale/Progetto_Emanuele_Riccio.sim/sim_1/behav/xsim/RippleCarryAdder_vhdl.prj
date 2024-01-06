@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/FullAdder.vhd" \
-"../../../../Progetto_Emanuele_Riccio.srcs/sources_1/new/RippleCarryAdder.vhd" \
-
-# Do not sort compile order
-nosort
