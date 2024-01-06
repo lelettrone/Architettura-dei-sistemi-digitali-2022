@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../esercizio_5_board.srcs/sources_1/new/contatore.vhd" \
-"../../../../esercizio_5_board.srcs/sources_1/new/cronometro.vhd" \
-"../../../../esercizio_5_board.srcs/sources_1/new/demux_1_4.vhd" \
-"../../../../esercizio_5_board.srcs/sim_1/new/TB_cronometro.vhd" \
-
-# Do not sort compile order
-nosort

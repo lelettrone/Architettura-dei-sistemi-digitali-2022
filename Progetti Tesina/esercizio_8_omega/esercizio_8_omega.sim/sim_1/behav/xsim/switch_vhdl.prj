@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../esercizio_8_omega.srcs/sources_1/new/dem_12.vhd" \
-"../../../../esercizio_8_omega.srcs/sources_1/new/mux_21.vhd" \
-"../../../../esercizio_8_omega.srcs/sources_1/new/switch.vhd" \
-
-# Do not sort compile order
-nosort

@@ -1,7 +1,0 @@
-Running: xsim.dir/rete_16_4_behav/xsimk.exe -simmode gui -wdb rete_16_4_behav.wdb -simrunnum 0 -socket 51935
-Design successfully loaded
-Design Loading Memory Usage: 6048 KB (Peak: 6048 KB)
-Design Loading CPU Usage: 108 ms
-Simulation completed
-Simulation Memory Usage: 6580 KB (Peak: 6580 KB)
-Simulation CPU Usage: 124 ms

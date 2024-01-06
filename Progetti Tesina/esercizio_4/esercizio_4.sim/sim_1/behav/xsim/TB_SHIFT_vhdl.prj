@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../esercizio_4.srcs/sources_1/new/cell.vhd" \
-"../../../../esercizio_4.srcs/sources_1/new/mux4_1.vhd" \
-"../../../../esercizio_4.srcs/sources_1/new/shift_register.vhd" \
-"../../../../esercizio_4.srcs/sim_1/new/TB_SHIFT.vhd" \
-
-# Do not sort compile order
-nosort

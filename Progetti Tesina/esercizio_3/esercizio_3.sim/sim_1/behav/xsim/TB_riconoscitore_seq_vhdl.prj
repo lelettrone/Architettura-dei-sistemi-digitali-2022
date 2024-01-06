@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../esercizio_3.srcs/sources_1/new/riconoscitore_seq.vhd" \
-"../../../../esercizio_3.srcs/sim_1/new/TB_riconoscitore_seq.vhd" \
-
-# Do not sort compile order
-nosort

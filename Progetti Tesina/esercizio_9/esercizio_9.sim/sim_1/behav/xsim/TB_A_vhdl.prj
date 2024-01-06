@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../esercizio_9.srcs/sources_1/imports/Downloads/RS232RefComp2.vhd" \
-"../../../../esercizio_9.srcs/sources_1/new/SystemA.vhd" \
-"../../../../esercizio_9.srcs/sim_1/new/TB_A.vhd" \
-
-# Do not sort compile order
-nosort

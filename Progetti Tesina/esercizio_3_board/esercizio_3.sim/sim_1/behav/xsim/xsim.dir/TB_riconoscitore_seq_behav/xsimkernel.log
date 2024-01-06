@@ -1,7 +1,0 @@
-Running: xsim.dir/TB_riconoscitore_seq_behav/xsimk.exe -simmode gui -wdb TB_riconoscitore_seq_behav.wdb -simrunnum 0 -socket 50957
-Design successfully loaded
-Design Loading Memory Usage: 5804 KB (Peak: 5804 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 6332 KB (Peak: 6332 KB)
-Simulation CPU Usage: 15 ms
